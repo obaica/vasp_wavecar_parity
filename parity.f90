@@ -96,9 +96,9 @@ subroutine parity
         end if ! if kcurrent in ktarget
     end do ! i=1, npkt
     close(10)
-    write(*,*)"!!!!!! IF the parity of bands are not +/- or not showing "
-    write(*,*)"!!!!!! or wf(+)/wf(-) not +/- (1., i0.)"
-    write(*,*)"!!!!!! you need reconsider the INVERSION CENTRE!"
+    write(*,*)"### IF the parity of bands are not +/- or not showing "
+    write(*,*)"### or wf(+)/wf(-) are not around +/-(1., i 0.) then "
+    write(*,*)"### you need reconsider the INVERSION CENTRE coordinate!"
 end subroutine parity
 
 subroutine wavefun(G, C, npl, k ,r0, is, v, psi1, psi2)
