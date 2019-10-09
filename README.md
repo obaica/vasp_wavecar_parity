@@ -19,7 +19,7 @@ ifort -o parity.x wavetrans.f90 parity.f90 main.f90 -assume byterecl
 ## Please make sure the following points:
 - Setting LWAVE=.TRUE. in your INCAR and remain WAVECAR.
 - Target k point included in your KPIONTS
-- Your system DOES have Inversion Symmetry.
+- Your system DOSE have Inversion Symmetry.
 - Exact Inverstion Symmetry Coordinate corresponding to POSCAR.
 - You know what's you are doing.
 
