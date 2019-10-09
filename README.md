@@ -1,4 +1,4 @@
-# vasp_WAVCAR_parity
+# vasp_WAVECAR_parity
 
 ## Author
 
