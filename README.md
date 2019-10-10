@@ -30,6 +30,7 @@ and running by
 
 ### warning:
 - Now this code is not tested in magnetic system yet!
+- 2D materials not support yet!
 
 ## Reference
 WAVETRANS.F90 code modified from https://www.andrew.cmu.edu/user/feenstra/wavetrans/  by R. M. Feenstra and M. Widom Department of Physics, Carnegie Mellon University, Pittsburgh, PA 15213
